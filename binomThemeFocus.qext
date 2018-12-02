@@ -1,0 +1,7 @@
+{
+	"name": "binomTheme Focus",
+	"description": "custom theme for qlik sense",
+	"type": "theme",
+	"versions": "1.0.0",
+	"author": "Thomas Lindackers"
+}

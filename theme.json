@@ -1,0 +1,190 @@
+{
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "rgba(255,255,255,0)"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "#5ca2df",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "#5ca2df",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#eeeeee"
+        },
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "dataColors": {
+    "primaryColor": "#344656",
+    "othersColor": "#efefef",
+    "errorColor": "#cb2424",
+    "nullColor": "#CCCCCC"
+  },
+  "palettes": {
+    "data": [
+      {
+        "scale": [
+          "#344656",
+          "#5ca2df",
+          "#ec963e",
+          "#7db251",
+
+          "#ffd728",
+          "#be4aef",
+
+          "#cfff60",
+          "#29664c",
+
+          "#ff3232",
+          "#c18def",
+          "#546e84",
+          "#70bcff"
+
+        ],
+        "name": "Binom Focus color scheme",
+        "translation": "Binom Focus color scheme",
+        "propertyValue": "5a3gl",
+        "type": "row",
+        "_id": "2afg0a41be1a62135g395fc0"
+      }
+    ],
+    "ui": [
+      {
+        "colors": [
+          "#344656",
+          "#5ca2df",
+          "#ec963e",
+          "#7db251",
+
+          "#ffd728",
+          "#be4aef",
+
+          "#cfff60",
+          "#29664c",
+
+          "#ff3232",
+          "#c18def",
+          "#546e84",
+          "#70bcff"
+        ],
+        "name": "Binom color Focus ui scheme",
+        "_id": "5aac1b3cbe1a68155e395fc5"
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme-focus"
+    }
+  ],
+  "scales": [
+    {
+      "scale": [
+        "#344656",
+        "#5ca2df"
+      ],
+      "name": "Binom 1 (gradient)",
+      "translation": "Binom 1 (gradient)",
+      "type": "gradient",
+      "propertyValue": "j0f4hw",
+      "_id": "5aghj1e7a6cb421fa455f1c6"
+    },
+    {
+      "scale": [
+        "#ec963e",
+        "#7db251"
+      ],
+      "name": "Binom 2 (gradient)",
+      "translation": "Binom 2 (gradient)",
+      "type": "gradient",
+      "propertyValue": "a6wfr",
+      "_id": "5afff3b9f6cb421ff455f1c7"
+    }
+  ],
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "12px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#000",
+    "@SubtitleColor": "#000",
+    "@TextColor": "#000",
+    "@FooterColor": "#888888",
+    "@BackgroundColor": "rgba(247,247,247,0)",
+    "@AxisMajorColor": "#eeeeee",
+    "@AxisMinorColor": "#eeeeee"
+  },
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor"
+}

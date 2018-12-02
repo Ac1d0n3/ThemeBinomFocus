@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.qv-object *:not(i):not(.lui-icon), .app-title, #insights-label {
+    font-family: 'montserrat' !important;
+
+}
+
+.lui-button--toolbar{
+  background: #fff !important;
+  background-color: #fff !important;
+  border-color: #efefef !important;
+  color: #efefef !important;
+}
+
+.lui-button--toolbar:hover{
+  background: #fff !important;
+  background-color: #fff !important;
+  border-color: #333 !important;
+  color: #000 !important;
+}
+
+.qv-object:not(.qv-object-filterpane):not(.qv-object-kpi):not(.qv-object-listbox):not(.qv-object-pivot-table):not(.qv-object-table)
+,.qv-global-search-result{
+    padding: 5px !important;
+    background: rgba(255,255,255,1) !important;
+}
+
+.qv-object-pivot-table h1,.qv-object-table h1{
+      padding: 5px !important;
+}
+
+.qv-object-pivot-table  tr:nth-child(even),.qv-object-table  tr:nth-child(even){
+      background-color: #f7f7f7 !important;
+}
+
+
+.qv-object-pivot-table table:nth-child(1) tr:nth-child(2),.qv-object-table table:nth-child(1) tr:nth-child(2) {
+      background: rgba(51, 51, 51,1); !important;
+      background-color: rgba(51, 51, 51,1) !important;
+      color: #fff !important;
+      opacity: 1;
+}
+
+.qv-object-pivot-table .lui-icon--triangle-bottom , .qv-object-table .lui-icon--triangle-bottom{
+      color: #fff !important;
+}
+
+.lui-popover,.qv-filterpane-expanded, .qv-object-pivot-table,.qv-object-table{
+    border: 1px solid #e4e8ea !important;
+    background: rgba(255,255,255,1) !important;
+}
+
+
+.qv-object-kpi {
+  padding: 5px !important;
+  border: 1px solid #e4e8ea !important;
+  background: #f7f7f7 !important;
+}
+
+.qv-object:not(.qv-object-filterpane):not(.qv-layout-spark):not(.qv-object-kpi):not(.qv-object-listbox):hover
+{
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+    background: #fff !important;
+
+}
+
+.qv-object-kpi:hover{
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+}
+
+.container-no-clientTabNavigation:before{
+   content: rgba(255,255,255,1) url(bg.png) !important;
+}
+
+
+.qv-collapsed-listbox:hover,.qv-filterpane-column button:hover,.qv-filterpane-expanded:hover {
+  color: #fff !important;
+  border: 1px solid #333 !important;
+}
+.qv-collapsed-listbox:hover * ,.qv-filterpane-expanded:hover h1,.pp-header-with-switch-component, .header-with-switch-icon{
+  color: #000 !important;
+}
+
+
+
+.qv-object .qv-object-content,.qv-global-selections{
+    background: rgba(255,255,255,0) !important;
+}
+
+.wrap, .qv-selections-pager, .app-details-content .options-bg-color,
+.lui-button--success, .em-expandable, .panel-container button {
+    background-color: #fff!important;
+    background: #fff!important;
+    border-color:rgba(92,162,223,1) !important;
+}
+
+
+.qv-toolbar-container, .qui-toolbar,
+#assets-button-panel, #assets-button-panel button,
+.qv-panel-subtoolbar, .qv-panel-edit-bar .qv-panel-subtoolbar button, .pp-header-with-switch-component,
+.ui-accordion-header, .options-bg-color, .suggest-popup,.menu-active,.em-list-container, .panel-content, .panel-container button.lui-disabled {
+    background-color: #fff !important;
+    background: #fff !important;
+    background-image: none;
+    border-color:#fff !important;
+    color: #000 !important;
+}
+
+#assets-button-panel button:hover,button:active,.qv-panel-subtoolbar button:hover
+,.sel-toolbar-menu-item:hover table,.sel-toolbar-menu-item:hover,.lui-bg-inverse{
+    background-color: #fff!important;
+    background: #fff !important;
+    background-image: none;
+    border-color:#fff !important;
+    color: #000 !important;
+}
+
+
+.qv-selections-pager .lui-icon, #insights-label, .empty-text,.menu-active{
+  color: #000 !important;
+}
+
+.item .lui-icon{
+  color: #ec963e !important;
+}
+
+.lui-popover button:hover,.lui-list__item:hover,.adetails-ellips,.dimmer-scroll ng-binding{
+  color: #000 !important
+}
+
+.qv-selections-pager .lui-icon:hover,
+.qv-toolbar-container .lui-icon, .pp-expandable-list-header,
+ .qv-pp-sortable, .lui-list__item, .qv-object h1{
+  color: #000 !important;
+}
+
+
+.qv-selections-pager .active .lui-icon, .active #insights-label,{
+  color: #fff !important;
+}
+
+.app-title, .app-info-icon, .lui-buttongroup{
+  color:#000 !important;
+}
+
+.qui-buttonset-left .app-title:after{
+  content:' @ qlik.binom.net'
+}
+
+
+
+.qv-gs-section, .options-bg-color,
+.app-details-content{
+    background-color:  #fff !important;
+}
+
+.qvt-sheet.qv-custom-size #grid{
+  background-color: rgba(0,0,0,0) !important;
+}
+
+
+.qv-cao-intro-image {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  margin:0 auto;
+}
+
+.sheet-title-text {
+  font-family: 'montserrat' !important;
+  text-transform: uppercase !important;
+  color: #000 !important;
+  font-size: 30px !important;
+}
+
+
+.sheet-title-text:before{
+  content: '# '
+}
+
+.sel-toolbar-cancel{
+  background-color: #efefef !important;
+  border: 1px solid #afafaf !important;
+  color: #333 !important;
+}
+
+.sel-toolbar-confirm, .lui-active{
+  background-color: #333 !important;
+  border: 1px solid #333 !important;
+  color: #fff !important;
+}
+
+.sel-toolbar-confirm:hover *{
+  color: #fff !important;
+}
+
+.ui-accordion-header-active{
+  background: #ec963e !important;
+}
+
+.sel-toolbar-cancel:hover ,.sel-toolbar-cancel:hover * , .lui-button--warning{
+  color:#fff !important;
+  background-color: #ec963e !important ;
+}
+
+.sel-toolbar-confirm:hover  {
+  color:#fff !important
+}
+
+.wrap, .qv-selections-pager{
+  border-color:#efefef !important;
+}
+
+
+.serverSelected, .serverLocked, .selected {
+  background-color: #333 !important;
+  border-bottom-color:  #efefef !important;
+  color:#ffffff !important;
+}
+
+
+.qvLocked  {
+  color: #344656 !important;
+}
+
+.em-item,.em-item span, .em-item:hover{
+  color:#333 !important;
+}
